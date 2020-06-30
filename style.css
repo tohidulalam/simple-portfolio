@@ -6,12 +6,12 @@ h1{
     font-size: 50px;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 p{
     color: dimgray;
 }
-.name-high{
+.orange-high{
     color: orange;
 }
 
@@ -51,4 +51,39 @@ section{
 
 .pad{
     padding-right: 20%;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+}
+
+.exp{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+
+
+}
+
+.foo{
+    color: burlywood;
+}
+
+footer p{
+    text-align: center;
 }
